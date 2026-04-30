@@ -19,10 +19,10 @@
             </div>
 
             <div class="list-group shadow-sm">
-                <a href="cargar_ticket.php" class="list-group-item list-group-item-action py-3">
+                <a href="public/cargar_ticket.php" class="list-group-item list-group-item-action py-3">
                     📝 Cargar nuevo ticket
                 </a>
-                <a href="../views/admin_login.php" class="list-group-item list-group-item-action py-3">
+                <a href="views/admin_login.php" class="list-group-item list-group-item-action py-3">
                     🔐 Panel Administrador
                 </a>
                 
@@ -33,7 +33,7 @@
 </div>
 <footer>
 <?php
-include "footer.php"; 
+include "public/footer.php"; 
 ?>
 </footer>
 </body>
